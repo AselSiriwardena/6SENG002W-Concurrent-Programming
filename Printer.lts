@@ -1,0 +1,37 @@
+/*  Author: Asel Siriwardena
+	2017454 | w1698419
+*/
+const START_SHEET_COUNT 		=   0 
+const START_DOC_COUNT 			=   1
+const MIN_SHEET_COUNT			=	1
+const MAX_SHEET_COUNT			=	3
+range DOC_COUNT					=	MIN_SHEET_COUNT .. MAX_SHEET_COUNT
+range SHEET_STACK				=	START_SHEET_COUNT .. MAX_SHEET_COUNT
+
+// All the users of the system
+set All_USERS = {s1, s2, tcn} 
+
+// Synchronized process
+set PRINT_Actions = { acquire, print[DOC_COUNT], release, empty, refill_printer} 
+
+// First printer must be started before printing, then 
+// printer acquires by user and print docs and releases it, If there are no sheets available technician will refill it.
+PRINTER(SHEETS_AVAILABLE	= MAX_SHEET_COUNT) =  PRINTER_AVAILABLE[MAX_SHEET_COUNT],
+	PRINTER_AVAILABLE[sheets_available: SHEET_STACK] = 
+					if   ( sheets_available > START_SHEET_COUNT )
+					then ( acquire -> print[DOC_COUNT] -> release -> PRINTER_AVAILABLE[sheets_available - 1]  )
+					else ( empty -> refill_printer -> release -> PRINTER_AVAILABLE[MAX_SHEET_COUNT] ).
+
+// Students prints documents one by one.
+STUDENT(DOCS_TO_PRINT = START_DOC_COUNT) = ( start ->  PRINT[START_DOC_COUNT] ),
+	PRINT[doc_count: START_SHEET_COUNT .. DOCS_TO_PRINT] = 
+					if   ( doc_count < DOCS_TO_PRINT)
+					then ( acquire -> print[doc_count] -> release -> PRINT[doc_count + 1]  )
+					else ( acquire -> print[doc_count] -> release -> END )+ PRINT_Actions.
+
+// Technician refills the printer when its empty.
+TECHNICIAN = ( empty -> refill_printer -> release -> TECHNICIAN | wait -> TECHNICIAN ) + PRINT_Actions.
+
+// Composite printer process [ with students, technician ]
+|| SHARED_PRINTER = ( s1: STUDENT(2) || s2: STUDENT(3) || tcn : TECHNICIAN || All_USERS::PRINTER ) 
+/ {start/s1.start,start/s2.start}.

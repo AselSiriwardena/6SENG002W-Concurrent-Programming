@@ -1,0 +1,177 @@
+
+PAPER_TECHNICIAN: [16:52:05.971] Refill paper, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:05.998] Before printing
+
+STUDENT: [16:52:05.998] StudentSimon printed the document: DOC-26-1275 (pages: 26)
+
+PRINTER: [16:52:05.999] After printing
+
+PRINTING_SYSTEM: [16:52:05.999] Before printing
+
+STUDENT: [16:52:05.999] StudentDerk printed the document: DOC-25-1256 (pages: 25)
+
+PRINTER: [16:52:05.999] After printing
+
+PRINTING_SYSTEM: [16:52:05.999] Before printing
+
+STUDENT: [16:52:05.999] StudentCindy printed the document: DOC-23-1283 (pages: 23)
+
+PRINTER: [16:52:05.999] After printing
+
+PRINTING_SYSTEM: [16:52:06.000] Before printing
+
+STUDENT: [16:52:06.000] StudentTina printed the document: DOC-26-1257 (pages: 26)
+
+PRINTER: [16:52:06.000] After printing
+
+TONER_TECHNICIAN: [16:52:06.000] Refill toner, Waiting (attempt = 1)
+
+PAPER_TECHNICIAN: [16:52:06.000] Refill paper, Complete, new level: 200, technician: Sasha (attempt = 1)
+
+TONER_TECHNICIAN: [16:52:06.000] Refill toner, Waiting (attempt = 1)
+
+PAPER_TECHNICIAN: [16:52:07.026] Refill paper, Complete, new level: 250, technician: Sasha (attempt = 2)
+
+TONER_TECHNICIAN: [16:52:07.026] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:07.255] Before printing
+
+STUDENT: [16:52:07.255] StudentDerk printed the document: DOC-10-1455 (pages: 10)
+
+PRINTER: [16:52:07.255] After printing
+
+TONER_TECHNICIAN: [16:52:07.255] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:07.257] Before printing
+
+STUDENT: [16:52:07.257] StudentTina printed the document: DOC-17-1419 (pages: 17)
+
+PRINTER: [16:52:07.257] After printing
+
+TONER_TECHNICIAN: [16:52:07.257] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:07.274] Before printing
+
+STUDENT: [16:52:07.274] StudentSimon printed the document: DOC-15-1582 (pages: 15)
+
+PRINTER: [16:52:07.274] After printing
+
+TONER_TECHNICIAN: [16:52:07.274] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:07.282] Before printing
+
+STUDENT: [16:52:07.282] StudentCindy printed the document: DOC-29-1862 (pages: 29)
+
+PRINTER: [16:52:07.282] After printing
+
+TONER_TECHNICIAN: [16:52:07.282] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:08.677] Before printing
+
+STUDENT: [16:52:08.677] StudentTina printed the document: DOC-26-1540 (pages: 26)
+
+PRINTER: [16:52:08.677] After printing
+
+TONER_TECHNICIAN: [16:52:08.678] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:08.711] Before printing
+
+STUDENT: [16:52:08.711] StudentDerk printed the document: DOC-11-1985 (pages: 11)
+
+PRINTER: [16:52:08.711] After printing
+
+TONER_TECHNICIAN: [16:52:08.712] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:08.857] Before printing
+
+STUDENT: [16:52:08.857] StudentSimon printed the document: DOC-26-1945 (pages: 26)
+
+PRINTER: [16:52:08.857] After printing
+
+TONER_TECHNICIAN: [16:52:08.857] Refill toner, Waiting (attempt = 1)
+
+PAPER_TECHNICIAN: [16:52:08.994] Refill paper, Complete, new level: 166, technician: Sasha (attempt = 3)
+
+TONER_TECHNICIAN: [16:52:08.994] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:09.145] Before printing
+
+STUDENT: [16:52:09.145] StudentCindy printed the document: DOC-29-1467 (pages: 29)
+
+PRINTER: [16:52:09.145] After printing
+
+TONER_TECHNICIAN: [16:52:09.145] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:10.218] Before printing
+
+STUDENT: [16:52:10.218] StudentTina printed the document: DOC-12-1372 (pages: 12)
+
+PRINTER: [16:52:10.222] After printing
+
+TONER_TECHNICIAN: [16:52:10.222] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:10.613] Before printing
+
+STUDENT: [16:52:10.613] StudentCindy printed the document: DOC-13-1837 (pages: 13)
+
+PRINTER: [16:52:10.613] After printing
+
+TONER_TECHNICIAN: [16:52:10.613] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:10.697] Before printing
+
+STUDENT: [16:52:10.697] StudentDerk printed the document: DOC-25-1803 (pages: 25)
+
+PRINTER: [16:52:10.697] After printing
+
+TONER_TECHNICIAN: [16:52:10.697] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:10.803] Before printing
+
+STUDENT: [16:52:10.803] StudentSimon printed the document: DOC-10-1752 (pages: 10)
+
+PRINTER: [16:52:10.803] After printing
+
+TONER_TECHNICIAN: [16:52:10.803] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:11.594] Before printing
+
+STUDENT: [16:52:11.594] StudentTina printed the document: DOC-19-1042 (pages: 19)
+
+PRINTER: [16:52:11.595] After printing
+
+TONER_TECHNICIAN: [16:52:11.595] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:12.450] Before printing
+
+STUDENT: [16:52:12.450] StudentCindy printed the document: DOC-15-1843 (pages: 15)
+
+PRINTER: [16:52:12.450] After printing
+
+TONER_TECHNICIAN: [16:52:12.451] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:12.501] Before printing
+
+STUDENT: [16:52:12.501] StudentDerk printed the document: DOC-16-1229 (pages: 16)
+
+PRINTER: [16:52:12.501] After printing
+
+TONER_TECHNICIAN: [16:52:12.501] Refill toner, Waiting (attempt = 1)
+
+PRINTING_SYSTEM: [16:52:12.556] Before printing
+
+STUDENT: [16:52:12.556] StudentSimon printed the document: DOC-22-1329 (pages: 22)
+
+PRINTER: [16:52:12.556] After printing
+
+TONER_TECHNICIAN: [16:52:12.556] Refill toner, Waiting (attempt = 1)
+
+TONER_TECHNICIAN: [16:52:17.557] Refill toner, No active students, operation aborted (attempt = 1)
+
+TONER_TECHNICIAN: [16:52:18.628] Refill toner, No active students, operation aborted (attempt = 2)
+
+TONER_TECHNICIAN: [16:52:20.040] Refill toner, No active students, operation aborted (attempt = 3)
+
+
+Process finished with exit code 0
